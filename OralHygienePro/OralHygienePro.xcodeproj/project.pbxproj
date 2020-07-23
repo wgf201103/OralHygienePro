@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526486E024C074C6001DD080 /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486DE24C074C6001DD080 /* HabitsTableViewController.swift */; };
+		526486E124C074C6001DD080 /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526486DF24C074C6001DD080 /* HabitsTableViewController.xib */; };
+		526486E424C07703001DD080 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486E324C07703001DD080 /* UIViewControllerExtensions.swift */; };
+		526486E624C08E1A001DD080 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486E524C08E1A001DD080 /* Habit.swift */; };
+		526486E824C0903B001DD080 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486E724C0903B001DD080 /* DateExtensions.swift */; };
+		526486EB24C0936E001DD080 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486E924C0936E001DD080 /* HabitTableViewCell.swift */; };
+		526486EC24C0936E001DD080 /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526486EA24C0936E001DD080 /* HabitTableViewCell.xib */; };
+		526486EE24C09C66001DD080 /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486ED24C09C66001DD080 /* PersistenceLayer.swift */; };
+		526486F124C09F3B001DD080 /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486EF24C09F3B001DD080 /* AddHabitViewController.swift */; };
+		526486F224C09F3B001DD080 /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526486F024C09F3B001DD080 /* AddHabitViewController.xib */; };
+		526486F524C0A6C5001DD080 /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526486F324C0A6C5001DD080 /* HabitDetailedViewController.swift */; };
+		526486F624C0A6C5001DD080 /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526486F424C0A6C5001DD080 /* HabitDetailedViewController.xib */; };
+		528517ED24B8FF0100D58B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528517EC24B8FF0100D58B6D /* AppDelegate.swift */; };
+		528517EF24B8FF0100D58B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528517EE24B8FF0100D58B6D /* SceneDelegate.swift */; };
+		528517F624B8FF0800D58B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528517F524B8FF0800D58B6D /* Assets.xcassets */; };
+		528517F924B8FF0800D58B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528517F724B8FF0800D58B6D /* LaunchScreen.storyboard */; };
+		52FE09B024C92FB800A0107F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE09AF24C92FB800A0107F /* Constants.swift */; };
+		52FE09B224C9398700A0107F /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE09B124C9398700A0107F /* video.swift */; };
+		52FE09B424C93A2100A0107F /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE09B324C93A2100A0107F /* model.swift */; };
+		52FE09BA24C959D100A0107F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE09B924C959D100A0107F /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526486DE24C074C6001DD080 /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
+		526486DF24C074C6001DD080 /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
+		526486E324C07703001DD080 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		526486E524C08E1A001DD080 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		526486E724C0903B001DD080 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		526486E924C0936E001DD080 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
+		526486EA24C0936E001DD080 /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		526486ED24C09C66001DD080 /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
+		526486EF24C09F3B001DD080 /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		526486F024C09F3B001DD080 /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
+		526486F324C0A6C5001DD080 /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
+		526486F424C0A6C5001DD080 /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
+		528517E924B8FF0100D58B6D /* OralHygienePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OralHygienePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528517EC24B8FF0100D58B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		528517EE24B8FF0100D58B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		528517F524B8FF0800D58B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528517F824B8FF0800D58B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		528517FA24B8FF0800D58B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FE09AF24C92FB800A0107F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52FE09B124C9398700A0107F /* video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
+		52FE09B324C93A2100A0107F /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		52FE09B824C941DE00A0107F /* OralHygienePro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OralHygienePro-Bridging-Header.h"; sourceTree = "<group>"; };
+		52FE09B924C959D100A0107F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528517E624B8FF0100D58B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526486E224C0752C001DD080 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526486DE24C074C6001DD080 /* HabitsTableViewController.swift */,
+				526486DF24C074C6001DD080 /* HabitsTableViewController.xib */,
+				526486E924C0936E001DD080 /* HabitTableViewCell.swift */,
+				526486EA24C0936E001DD080 /* HabitTableViewCell.xib */,
+				526486F324C0A6C5001DD080 /* HabitDetailedViewController.swift */,
+				526486F424C0A6C5001DD080 /* HabitDetailedViewController.xib */,
+				526486EF24C09F3B001DD080 /* AddHabitViewController.swift */,
+				526486F024C09F3B001DD080 /* AddHabitViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		528517E024B8FF0100D58B6D = {
+			isa = PBXGroup;
+			children = (
+				528517EB24B8FF0100D58B6D /* OralHygienePro */,
+				528517EA24B8FF0100D58B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528517EA24B8FF0100D58B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528517E924B8FF0100D58B6D /* OralHygienePro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528517EB24B8FF0100D58B6D /* OralHygienePro */ = {
+			isa = PBXGroup;
+			children = (
+				528517EC24B8FF0100D58B6D /* AppDelegate.swift */,
+				526486E324C07703001DD080 /* UIViewControllerExtensions.swift */,
+				528517EE24B8FF0100D58B6D /* SceneDelegate.swift */,
+				526486E524C08E1A001DD080 /* Habit.swift */,
+				526486ED24C09C66001DD080 /* PersistenceLayer.swift */,
+				526486E724C0903B001DD080 /* DateExtensions.swift */,
+				52FE09AF24C92FB800A0107F /* Constants.swift */,
+				52FE09B324C93A2100A0107F /* model.swift */,
+				52FE09B924C959D100A0107F /* Response.swift */,
+				52FE09B124C9398700A0107F /* video.swift */,
+				526486E224C0752C001DD080 /* Views */,
+				528517F524B8FF0800D58B6D /* Assets.xcassets */,
+				528517F724B8FF0800D58B6D /* LaunchScreen.storyboard */,
+				528517FA24B8FF0800D58B6D /* Info.plist */,
+				52FE09B824C941DE00A0107F /* OralHygienePro-Bridging-Header.h */,
+			);
+			path = OralHygienePro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528517E824B8FF0100D58B6D /* OralHygienePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528517FD24B8FF0800D58B6D /* Build configuration list for PBXNativeTarget "OralHygienePro" */;
+			buildPhases = (
+				528517E524B8FF0100D58B6D /* Sources */,
+				528517E624B8FF0100D58B6D /* Frameworks */,
+				528517E724B8FF0100D58B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OralHygienePro;
+			productName = OralHygienePro;
+			productReference = 528517E924B8FF0100D58B6D /* OralHygienePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528517E124B8FF0100D58B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Gefei Wang";
+				TargetAttributes = {
+					528517E824B8FF0100D58B6D = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 528517E424B8FF0100D58B6D /* Build configuration list for PBXProject "OralHygienePro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528517E024B8FF0100D58B6D;
+			productRefGroup = 528517EA24B8FF0100D58B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528517E824B8FF0100D58B6D /* OralHygienePro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528517E724B8FF0100D58B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528517F924B8FF0800D58B6D /* LaunchScreen.storyboard in Resources */,
+				526486F224C09F3B001DD080 /* AddHabitViewController.xib in Resources */,
+				526486E124C074C6001DD080 /* HabitsTableViewController.xib in Resources */,
+				526486F624C0A6C5001DD080 /* HabitDetailedViewController.xib in Resources */,
+				526486EC24C0936E001DD080 /* HabitTableViewCell.xib in Resources */,
+				528517F624B8FF0800D58B6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528517E524B8FF0100D58B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526486E424C07703001DD080 /* UIViewControllerExtensions.swift in Sources */,
+				526486E624C08E1A001DD080 /* Habit.swift in Sources */,
+				528517ED24B8FF0100D58B6D /* AppDelegate.swift in Sources */,
+				526486EE24C09C66001DD080 /* PersistenceLayer.swift in Sources */,
+				528517EF24B8FF0100D58B6D /* SceneDelegate.swift in Sources */,
+				52FE09B224C9398700A0107F /* video.swift in Sources */,
+				52FE09BA24C959D100A0107F /* Response.swift in Sources */,
+				526486E024C074C6001DD080 /* HabitsTableViewController.swift in Sources */,
+				52FE09B424C93A2100A0107F /* model.swift in Sources */,
+				526486EB24C0936E001DD080 /* HabitTableViewCell.swift in Sources */,
+				526486F524C0A6C5001DD080 /* HabitDetailedViewController.swift in Sources */,
+				526486F124C09F3B001DD080 /* AddHabitViewController.swift in Sources */,
+				52FE09B024C92FB800A0107F /* Constants.swift in Sources */,
+				526486E824C0903B001DD080 /* DateExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		528517F724B8FF0800D58B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528517F824B8FF0800D58B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528517FB24B8FF0800D58B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528517FC24B8FF0800D58B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528517FE24B8FF0800D58B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C379PSGGJ;
+				INFOPLIST_FILE = OralHygienePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gefeiw.OralHygienePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OralHygienePro/OralHygienePro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528517FF24B8FF0800D58B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C379PSGGJ;
+				INFOPLIST_FILE = OralHygienePro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gefeiw.OralHygienePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OralHygienePro/OralHygienePro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528517E424B8FF0100D58B6D /* Build configuration list for PBXProject "OralHygienePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528517FB24B8FF0800D58B6D /* Debug */,
+				528517FC24B8FF0800D58B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528517FD24B8FF0800D58B6D /* Build configuration list for PBXNativeTarget "OralHygienePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528517FE24B8FF0800D58B6D /* Debug */,
+				528517FF24B8FF0800D58B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528517E124B8FF0100D58B6D /* Project object */;
+}
